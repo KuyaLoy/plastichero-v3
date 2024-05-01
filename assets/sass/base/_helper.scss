@@ -1,0 +1,32 @@
+@use "../utils" as u;
+
+.new-container {
+  max-width: u.rem(1280);
+  margin: 0 auto;
+  width: 100%;
+
+  padding-left: u.rem(24);
+  padding-right: u.rem(24);
+}
+
+.padding-container {
+  padding-top: clamp(3rem, 1.1081rem + 4.3243vw, 5rem);
+  padding-bottom: clamp(3rem, 1.1081rem + 4.3243vw, 5rem);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  -webkit-animation: rotating 10s linear infinite;
+}

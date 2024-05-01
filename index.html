@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="Plastichero logo" />
+        </div>
+        <ul class="menu">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Process</a></li>
+          <li><a href="#">Mobile App</a></li>
+          <li><a href="#">Ecosystem</a></li>
+          <img
+            src="./assets/images/close.svg"
+            class="close"
+            onclick="toggleContent()"
+          />
+        </ul>
+        <button class="mobile-hamburger" onclick="toggleContent()">
+          <img src="./assets/images/menu.svg" />
+        </button>
+        <a class="contact-us" href="#">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-cont padding-container" id="hero">
+        <div class="jumbotron new-container">
+          <a href="#" class="ex-button">
+            <span>PTH</span>Earn with Ease, Let's Turn Plastic into Prosperity!
+            <img src="./assets/images/arrow-right.svg" alt="" />
+          </a>
+          <h1><span>Combat plastic</span> pollution, one bottle at a time.</h1>
+          <p class="desc">
+            Increasing plastic waste poses a serious risk to our oceans,
+            wildlife, and human health. Plastichero is leading the charge in the
+            fight against plastic pollution. With innovative solutions and a
+            commitment to sustainability, we're paving the way for a cleaner,
+            greener future.
+          </p>
+          <div class="button-cont">
+            <a href="#">Discover more</a>
+            <a href="#">Talk to us</a>
+          </div>
+
+          <img
+            src="./assets/images/plastichero-machine.gif"
+            alt=""
+            class="machine-header"
+          />
+
+          <div class="slider-cont">
+            <div class="cards-wrapper">
+              <div class="card card-1">
+                <div class="floating-nav">
+                  <button class="neexxt">
+                    <img src="./assets/images/icon-arrow-left.svg" alt="" />
+                  </button>
+                  <button class="preevv">
+                    <img src="./assets/images/icon-arrow-right.svg" alt="" />
+                  </button>
+                </div>
+                <div class="swiper myTesti">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="text-ai-robot">
+                        <img src="./assets/images/machine.svg" alt="" />
+                        <div class="text-cont">
+                          <h3>Customizable Brand Integration & Marketing</h3>
+                          <p>
+                            Seamlessly integrate your brand with Plastichero's
+                            adaptable appearance and promotional video display.
+                          </p>
+                        </div>
+                      </div>
+                      <span class="page">02</span>
+                      <span class="progress"></span>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="text-ai-robot">
+                        <img src="./assets/images/machine.svg" alt="" />
+                        <div class="text-cont">
+                          <h3>Monetization of Plastic Waste</h3>
+                          <p>
+                            Transforms environmental responsibility into
+                            economic opportunity by selling plastic bottles
+                            collected.
+                          </p>
+                        </div>
+                      </div>
+                      <span class="page">03</span>
+                      <span class="progress"></span>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="text-ai-robot">
+                        <img src="./assets/images/machine.svg" alt="" />
+                        <div class="text-cont">
+                          <h3>Smart Sorting and Crushing AI Robot</h3>
+                          <p>
+                            Accurately identifies and separates plastic bottles,
+                            optimizing storage, labor, and transport costs
+                            through IoT-based AI and crushing technology.
+                          </p>
+                        </div>
+                      </div>
+                      <span class="page">04</span>
+                      <span class="progress"></span>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="text-ai-robot">
+                        <img src="./assets/images/machine.svg" alt="" />
+                        <div class="text-cont">
+                          <h3>User Incentive Program</h3>
+                          <p>
+                            Earn PTH coins with each plastic deposit and redeem
+                            them for vouchers and goodies anytime, anywhere via
+                            our mobile app.
+                          </p>
+                        </div>
+                      </div>
+                      <span class="page">05</span>
+                      <span class="progress"></span>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="text-ai-robot">
+                        <img src="./assets/images/machine.svg" alt="" />
+                        <div class="text-cont">
+                          <h3>Profitable Mining Operation</h3>
+                          <p>
+                            Unlock passive income with Plastichero's PTH mining
+                            capability.
+                          </p>
+                        </div>
+                      </div>
+                      <span class="page">01</span>
+                      <span class="progress"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-2"></div>
+              <div class="card card-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us padding-container" id="about-us">
+        <div class="new-container media-wrapper">
+          <div class="video-cont">
+            <div class="video-wrapper">
+              <video autoplay muted playsinline loop>
+                <source src="./assets/video/Document.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <img src="./assets/images/plastichero-machine.png" alt="" />
+          </div>
+          <div class="partners-cont">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/partners/partner-1.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/partners/partner-2.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/partners/partner-3.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/partners/partner-4.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/partners/partner-5.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/partners/partner-6.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="process padding-container" id="process">
+        <div class="upper-cont new-container">
+          <div class="text-ai-robot">
+            <img src="./assets/images/machine.svg" alt="" />
+            <div class="text-cont">
+              <h3>Recycle On-the-Go</h3>
+              <p>
+                Plastichero AI Robots are conveniently located in various public
+                areas, including localities, schools, offices, stadiums,
+                institutions, malls, and other public places.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="proces-steps-wrapper new-container">
+          <div class="process-steps">
+            <div class="top-cont">
+              <div class="text-cont">
+                <div class="title">
+                  <img
+                    src="./assets/images/process/steps-1.svg"
+                    alt=""
+                  />Efficient Sorting
+                </div>
+                <p>
+                  Sort and segregate recyclable materials from plastic waste
+                  with precision. Separate materials based on their properties
+                  to repurpose or recycle them.
+                </p>
+              </div>
+              <div class="text-cont">
+                <div class="title">
+                  <img
+                    src="./assets/images/process/steps-2.svg"
+                    alt=""
+                  />Resource Circulation
+                </div>
+                <p>
+                  Maximize your recycling efforts with our efficient system for
+                  separating PET and non-PET bottles.
+                </p>
+              </div>
+              <div class="text-cont">
+                <div class="title">
+                  <img src="./assets/images/process/steps-3.svg" alt="" />Reduce
+                  Labor Expenses
+                </div>
+                <p>
+                  Enhanced efficiency in collecting and managing plastic waste
+                  while reducing labor expenses.
+                </p>
+              </div>
+              <div class="text-cont">
+                <div class="title">
+                  <img
+                    src="./assets/images/process/steps-4.svg"
+                    alt=""
+                  />Environmental Impact
+                </div>
+                <p>
+                  Adopts sustainable practices like the crushing method to
+                  minimize carbon emissions and contribute towards a greener
+                  future.
+                </p>
+              </div>
+            </div>
+
+            <div class="image-cont">
+              <div class="swiper myMachine">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineOne.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineOne.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineTwo.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineTwo.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineThree.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineThree.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineFour.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineFour.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineFive.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineFive.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineSix.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineSix.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineSeven.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineSeven.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/images/machine-part/web/machineEight.svg"
+                      alt=""
+                    /><img
+                      src="./assets/images/machine-part/machineEight.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ecosystem padding-container" id="ecosystem">
+        <div class="top-cont new-container">
+          <p>
+            Start recycling and get rewarded for making a positive impact on the
+            planet.
+          </p>
+          <h2>Get Recycle and Get Rewarded</h2>
+          <img src="./assets/images/clock-arrow.png" alt="" class="rotating" />
+        </div>
+        <div class="main-cont new-container">
+          <div class="sec-1">
+            <img src="./assets/images/sec-1.png" alt="" />
+            <div class="wordings">
+              <div class="sec word-1">
+                <p>Save Time, Save Environment</p>
+                <span
+                  >Plastichero has revolutionized the game with its efficient AI
+                  robots that require only monthly visits.</span
+                >
+              </div>
+              <div class="sec word-2">
+                <p>Sustainable Solution</p>
+                <span
+                  >Plastichero offers a smart and innovative recycling approach
+                  to tackling plastic waste for an eco-friendly future.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="sec-2">
+            <ul id="accordion">
+              <li>
+                <h4 class="title">1 Node <span>180 PTH</span></h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">User <span>135 PTH</span></h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">Donation <span>15 PTH</span></h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">
+                  Plastichero Headquarters (Plastichero Global)
+                  <span>8 PTH</span>
+                </h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">Plastichero Korea <span>6.5 PTH</span></h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">
+                  Development Team (Sigma) <span>6.5 PTH</span>
+                </h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">Eco Center <span>5 PTH</span></h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">TNC Teams Korea <span>1 PTH</span></h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <h4 class="title">Referral <span>3 PTH</span></h4>
+                <div class="content">
+                  <div class="text">
+                    <p>
+                      Lorem ipsum dolor sit amet vsvsv ffbgf consectetur. Amet
+                      gravida vulputate magna ultrices purus vitae viverra
+                      consequat pharetra. Egestas suscipit. hfhyt
+                    </p>
+                    <p>viverra consequat pharetra. Egestas suscipit. hfhy</p>
+                  </div>
+                  <img src="./assets/images/accordian/image-1.png" alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="lower-cont new-container">
+          <h3>
+            <!-- Transforming Waste into a Sustainable Future Plastichero utilizes
+            smart technology to clean and purify cities.
+            <span>Your participation will help</span> bring about the creation
+            of a sustainable green environment for
+            <span>future societies.</span> -->
+            Wondering where recycled plastic can make a difference? The answer
+            is everywhere! Plastic waste isn't just a problem, but a
+            <span>solution</span> in waiting. Choose
+            <span>Plastichero, </span> and become a hero for the environment.
+          </h3>
+        </div>
+      </section>
+
+      <section class="appliaciton padding-container" id="application">
+        <div class="new-container">
+          <div class="mobile-cont">
+            <div class="sec sec-1">
+              <div class="text-cont">
+                <h3>Adopt a Green Lifestyle</h3>
+                <p class="text-desc">
+                  Gain insights and take action to reduce your carbon footprint
+                  and recycle plastic waste. Join our Plastichero app and invite
+                  your friends to earn with you.
+                </p>
+                <div class="download-cont">
+                  <a href="#">
+                    <img src="./assets/images/icon-playstore.svg" alt="" />
+                    <div class="text-mini">
+                      <p>Coming Soon on</p>
+                      <span>Google Play</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <img src="./assets/images/icon-ios.svg" alt="" />
+                    <div class="text-mini">
+                      <p>Coming Soon on</p>
+                      <span>App Store</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <img
+                src="./assets/images/LearnEarnAct.png"
+                alt=""
+                class="learnearnact"
+              />
+              <img
+                src="./assets/images/ball-2.png"
+                class="float-ball-2"
+                alt=""
+              />
+            </div>
+            <div class="sec sec-2">
+              <div class="swiper myPhone">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./assets/images/iphone/imgOne.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/iphone/imgTwo.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/iphone/imgThree.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/iphone/imgFour.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/iphone/imgFive.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="machine-location padding-container" id="machine-location">
+        <div class="upper-cont new-container">
+          <div class="text-ai-robot">
+            <img src="./assets/images/machine.svg" alt="" />
+            <div class="text-cont">
+              <h3>Meet Your Eco-Warrior Companion</h3>
+              <p>
+                Discover where your nearest Plastichero AI Robot is stationed
+                and join the fight for a greener world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="new-container">
+          <div class="main-div-cont">
+            <div class="inner-div-cont">
+              <ul class="country">
+                <li>
+                  <img
+                    src="./assets/images/flags/kr.svg"
+                    alt="Republic of Korea"
+                  />Republic of Korea
+                </li>
+                <li>
+                  <img src="./assets/images/flags/jp.svg" alt="Japan" />Japan
+                </li>
+                <li>
+                  <img
+                    src="./assets/images/flags/ae.svg"
+                    alt="United Arab Emirates"
+                  />United Arab Emirates
+                </li>
+              </ul>
+              <ul class="counts-cont">
+                <li>
+                  <p>5,293</p>
+                  <span>Plastichero Installed</span>
+                </li>
+                <li>
+                  <p>190,519</p>
+                  <span>Bottles Collected</span>
+                </li>
+                <li>
+                  <p>21,086</p>
+                  <span>Active Users</span>
+                </li>
+              </ul>
+
+              <div class="maps">
+                <iframe
+                  src="https://www.google.com/maps/d/u/0/embed?mid=1TompUEyb1_LWtp7s3gIXg4r1ew_rSVo&ehbc=2E312F&noprof=1"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form padding-container">
+        <div class="form-img">
+          <img src="./assets/images/formbg.png" alt="form-bg" />
+        </div>
+        <div class="new-container">
+          <p class="form-title">
+            Subscribe to a<br /><span class="clr-blck">Sustainable Future</span>
+            <!-- Ready to build your <br />Plastichero
+            <span class="clr-blck">dream future?</span> -->
+          </p>
+          <form id="subscriptionForm">
+            <div class="input-group">
+              <input
+                id="email"
+                class="input-field"
+                type="email"
+                placeholder="Your Email Address"
+                required=""
+              />
+              <button type="button" id="subscribeBtn" class="subscribe-btn">
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="main-footer">
+        <div class="new-container">
+          <div class="footer-grid-block">
+            <div class="ftr-main-1">
+              <div class="f-1">
+                <a href="./assets/images/logo.svg" alt="logo">
+                  <img src="./assets/images/logo.svg" alt="logo" />
+                </a>
+                <p>
+                  Join this journey towards a cleaner and healthier planet.
+                  Reduce, reuse, and recycle plastic waste with Plastichero to
+                  build a more sustainable environment.
+                </p>
+              </div>
+              <div class="f-2">
+                <p class="ftr-title">Contact</p>
+                <ul class="ftr-list">
+                  <li>
+                    <img src="./assets/images/icons/call.svg" alt="call" />
+                    <a href="tel:+4733378901">+47 333 78 901</a>
+                  </li>
+                  <li>
+                    <img
+                      src="./assets/images/icons/location.svg"
+                      alt="location"
+                    />
+                    <p>Vision Tower Business Bay Dubai, UAE</p>
+                  </li>
+                  <li>
+                    <img src="./assets/images/icons/mail.svg" alt="mail" />
+                    <p>support@plasticheroglobal.com</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ftr-main-2">
+              <div class="f-3">
+                <p class="ftr-title">Links</p>
+                <ul class="ftr-list">
+                  <li><a href="" target="">About Us</a></li>
+                  <li><a href="" target="">Process</a></li>
+                  <li><a href="" target="">Mobile Apps</a></li>
+                  <li><a href="" target="">Ecosystem</a></li>
+                </ul>
+              </div>
+              <div class="f-4">
+                <p class="ftr-title">Resources</p>
+                <ul class="ftr-list">
+                  <li><a href="" target="">Buy Nodes</a></li>
+                  <li><a href="" target="">Whitepaper</a></li>
+                </ul>
+              </div>
+              <div class="f-5">
+                <p class="ftr-title">Read</p>
+                <ul class="ftr-list">
+                  <li><a href="" target="">Terms & Conditions</a></li>
+                  <li><a href="" target="">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <p class="copyright">
+          © copyright 2023 - 2024 by plasticheroglobal.com
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+      function subscribe() {
+        // Get the email input value
+        var email = $("#email").val();
+        var emailInput = $("#email");
+
+        // Validate the email (you might want to improve this)
+        if (!validateEmail(email)) {
+          // alert('Please enter a valid email address.');
+          return;
+        }
+
+        // Use AJAX to send the data to the server
+        $.ajax({
+          type: "POST",
+          url: "subscribe.php",
+          data: { email: email },
+          success: function (response) {
+            // alert('Subscription successful!');
+            $(".subscription-popup").fadeIn();
+            setTimeout(function () {
+              $(".subscription-popup").fadeOut();
+              // $(".subs-layer").show();
+            }, 2000);
+            // $(".subs-layer").show();
+            emailInput.val("");
+          },
+          error: function () {
+            alert("Error in subscription.");
+          },
+        });
+      }
+
+      function validateEmail(email) {
+        // Simple email validation, you might want to use a more robust method
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+      }
+
+      // Add click event listener to the subscribe button
+      $("#subscribeBtn").click(function () {
+        // alert("yo");
+        subscribe();
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".myTesti", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          enabled: true,
+          delay: 5000,
+        },
+        effect: "fade",
+        autoHeight: true,
+        navigation: {
+          nextEl: ".neexxt",
+          prevEl: ".preevv",
+        },
+      });
+
+      var swiper = new Swiper(".myMachine", {
+        slidesPerView: 1,
+        effect: "fade",
+        mousewheel: true,
+        keyboard: {
+          enabled: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoHeight: true,
+        breakpoints: {
+          700: { direction: "vertical" },
+        },
+      });
+
+      var swiper = new Swiper(".myPhone", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        autoHeight: true, //enable auto height
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        effect: "fade",
+        autoplay: {
+          enabled: true,
+          delay: 5000,
+          pauseOnMouseEnter: false,
+          disableOnInteraction: true,
+        },
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

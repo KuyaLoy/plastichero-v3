@@ -1,0 +1,112 @@
+@use "../utils" as u;
+
+header {
+  padding: 0 u.rem(24);
+  border-bottom: 2px solid #f2f4f7;
+
+  //   position: sticky;
+  //   top: 0;
+
+  nav {
+    max-width: u.rem(1440);
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include u.breakpoint-min(medium) {
+      justify-content: center;
+    }
+    gap: u.rem(28);
+
+    padding-top: u.rem(18);
+    padding-bottom: u.rem(18);
+
+    .logo {
+      max-width: u.rem(163);
+    }
+    .menu {
+      display: none;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #111;
+          font-weight: 500;
+          font-size: clamp(0.5rem, 0.2131rem + 0.6557vw, 1rem);
+        }
+      }
+      img.close {
+        display: none;
+      }
+      &.active {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 0;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background: white;
+        z-index: 999;
+
+        gap: u.rem(30);
+
+        li {
+          a {
+            font-size: u.rem(36);
+          }
+        }
+        img.close {
+          display: block;
+          position: absolute;
+          top: 20%;
+          right: 20%;
+          width: 30px;
+          cursor: pointer;
+        }
+      }
+
+      @include u.breakpoint-min(medium) {
+        display: flex;
+        gap: u.rem(12);
+        width: 100%;
+
+        li {
+          padding: u.rem(10) u.rem(18);
+        }
+      }
+    }
+    .mobile-hamburger {
+      display: block;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+      @include u.breakpoint-min(medium) {
+        display: none;
+      }
+    }
+    .contact-us {
+      width: u.rem(97);
+      display: none;
+
+      @include u.breakpoint-min(medium) {
+        display: inline-flex;
+        background-color: u.$green;
+        color: white;
+        text-decoration: none;
+        padding: u.rem(10) u.rem(18);
+        border-radius: u.rem(12);
+      }
+    }
+  }
+}
